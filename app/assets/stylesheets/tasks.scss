@@ -1,3 +1,37 @@
-// Place all the styles related to the tasks controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+$title-color: #AF6E6E;
+
+.header{
+  height: 55px;
+  background-color: #FFE0A5;
+}
+
+.header__logo{
+  float: left;
+  font-size: 36px;
+  font-size: 36px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $title-color;
+  margin-left: 30px;
+}
+.header__menu{
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.header__menu-item{
+  color: $title-color;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.header__menu-item__link{
+  color: $title-color;
+  background-color: #FFC394;
+  padding: 10px 15px;
+  border-radius: 17px;
+}
