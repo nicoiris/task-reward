@@ -5,6 +5,7 @@
   background-color: $header-color;
   display: flex;
   justify-content: space-between;
+  padding: 0 30px;
 }
 
 .header__logo{
@@ -14,7 +15,6 @@
   align-items: center;
   text-align: center;
   color: $title-color;
-  margin-left: 30px;
 }
 .header__menu{
   display: flex;
@@ -25,7 +25,7 @@
 .header__menu-item{
   color: $title-color;
   font-size: 18px;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .header__menu-link{
