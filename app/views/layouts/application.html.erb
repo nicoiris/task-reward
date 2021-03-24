@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header class="header">
+      <div class="header__logo">task=reward</div>
+      <ul class="header__menu">
+        <li class="header__menu-item">〇〇さん:28pt</li>
+        <li class="header__menu-item"><a class="header__menu-item--link" href="#">ログアウト</a></li>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
