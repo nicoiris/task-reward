@@ -1,0 +1,102 @@
+@import "_variables.scss";
+
+.header{
+  height: 55px;
+  background-color: $header-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.header__logo{
+  font-size: 36px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $title-color;
+}
+.header__menu{
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.header__menu-item{
+  color: $title-color;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.header__menu-item--link{
+  color: $title-color;
+  background-color: $button-color;
+  padding: 10px 15px;
+  border-radius: 17px;
+}
+
+.main{
+  background-color: $back-color;
+  height: calc(100vh - 55px);
+  display: flex;
+}
+
+.project{
+  background-color: $base-color;
+  width: 33.33%;
+  justify-content: space-between;
+  margin: 50px 20px;
+}
+
+.project__name{
+  height: 50px;
+  background-color: $header-color;
+  color: $title-color;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.project-box__item{
+  background-color: #FFF;
+  border: solid 1px $font-color-gray;
+  margin: 15px auto;
+  width: 80%;
+  border-radius: 17px;
+  padding: 12px;
+}
+
+.project-box__btn{
+  background-color: #FFF;
+  border: solid 1px $font-color-gray;
+  margin: 15px auto;
+  width: 80%;
+  border-radius: 17px;
+}
+
+.post-btn{
+  padding: 8px;
+  text-align: center;
+  display: block;
+  color: #000;
+}
+
+.project-box__item-title{
+  font-size: 15px;
+}
+.project-box__item-detail, .project-box__item-date{
+  color: $font-color-gray;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item-btns{
+  margin-top: 3px;
+}
+
+.item-btn{
+  color: $title-color;
+  margin-right: 5px;
+}
